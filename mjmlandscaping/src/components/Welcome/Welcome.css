@@ -1,0 +1,81 @@
+@font-face {
+  font-family: QuarkLight;
+  src: url('./QuarkLightBold/QuarkLight.otf') format('opentype');
+}
+
+@font-face{
+  font-family: QuarkBold;
+  src: url('./QuarkLightBold/QuarkBold.otf') format('opentype');
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#welcome-opener{
+  font-family: QuarkBold;
+  font-size: 32px;
+}
+
+#starter-btn{
+  font-family: QuarkLight;
+}
+
+button {
+  background-color: #F0FFFF;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  font-family: QuarkLight;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+button {
+  width: 175px;
+  height: 100px;
+  -webkit-transition: width 2s, height 2s;
+  transition: width 2s, height 2s
+}
+
+button:hover {
+  background-color: #bfff80;
+  font-family: QuarkBold;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.welcome-container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+  width: 100%;
+}
+
+body{
+  background: rgb(69,139, 0)
+}

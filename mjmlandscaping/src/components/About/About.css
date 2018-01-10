@@ -1,0 +1,15 @@
+.who, .paragraph-about, .quick-facts{
+  font-family: QuarkLight;
+}
+
+.intro-blurb{
+  font-family: QuarkBold;
+}
+
+.paragraph-about, .quick-facts{
+  text-align: left;
+}
+
+.who{
+  text-align: center;
+}
