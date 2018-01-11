@@ -6,7 +6,11 @@ import './Header.css'
 const Header = () => (
 	<header>
 		<Link to="/">
-			<img className="logo" src="test-banner.jpg" alt="MJM Landscaping logo" />
+			<img
+				className="banner-logo"
+				src="test-banner.jpg"
+				alt="MJM Landscaping logo"
+			/>
 		</Link>
 		<nav>
 			<Link to="/about">About Us </Link>

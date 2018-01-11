@@ -1,0 +1,30 @@
+.aboutlanding-wrapper {
+  height: 30em;
+  width: 100vw;
+}
+
+.aboutlanding-text{
+  position: relative;
+  width: 30em;
+  height: 20em;
+  color: black;
+  font-family: QuarkLight;
+}
+
+.show{
+  position: absolute;
+  left: -30em;
+  width: 30em;
+  height: 20em;
+  -webkit-animation: slide-in 1s forwards;
+  animation: slide-in 1s forwards;
+  position: center;
+}
+
+@-webkit-keyframes slide-in {
+  100% { left: 100% }
+}
+
+@keyframes slide-in{
+  100% { left: 100% }
+}

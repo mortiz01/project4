@@ -6,6 +6,7 @@ import ContactUs from '../ContactUs/ContactUs'
 import Header from '../Header/Header'
 import About from '../About/About'
 import Service from '../Service/Service'
+import Landing from '../Landing/Landing'
 import Footer from '../Footer/Footer'
 
 class App extends Component {
@@ -25,6 +26,11 @@ class App extends Component {
 							exact
 							path="/service"
 							render={props => <Service {...props} />}
+						/>
+						<Route
+							exact
+							path="/landing"
+							render={props => <Landing {...props} />}
 						/>
 					</Switch>
 					<Footer />

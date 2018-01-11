@@ -73,9 +73,10 @@ button:hover {
 }
 
 img{
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 body{
-  background: rgb(69,139, 0)
+  background: #ffefc1
 }

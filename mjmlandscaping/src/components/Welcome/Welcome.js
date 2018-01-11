@@ -9,7 +9,7 @@ const Welcome = () => (
 			<img src="lawn-768316_1920.jpg" alt="Welcome" />
 			<div class="centered">
 				<h1 id="welcome-opener">Help your lawn look as good as it could</h1>
-				<Link to="/about">
+				<Link to="/landing">
 					<button id="starter-btn">Let's Get Started</button>
 				</Link>
 			</div>
