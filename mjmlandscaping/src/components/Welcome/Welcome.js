@@ -10,7 +10,7 @@ const Welcome = () => (
 			<div class="centered">
 				<h1 id="welcome-opener">Help your lawn look as good as it could</h1>
 				<Link to="/landing">
-					<button id="starter-btn">Let's Get Started</button>
+					<button className="starter-btn">Let's Get Started</button>
 				</Link>
 			</div>
 		</div>

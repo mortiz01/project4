@@ -1,8 +1,21 @@
 .services-welcome{
   font-family: QuarkBold;
   text-align: center;
+  font-size: 24px;
 }
 
 .services-explain{
   font-family: QuarkLight;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+.services-list{
+  list-style-position: inside;
+  text-align: center;
+}
+
+.onward{
+  font-size: 24px;
 }

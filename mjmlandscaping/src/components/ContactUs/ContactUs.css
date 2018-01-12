@@ -1,0 +1,15 @@
+.contactus-info{
+  font-family: QuarkBold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.services-list{
+  font-family: QuarkLight;
+  font-size: 22px;
+  text-align: center;
+}
+
+ul{
+  list-style-position: inside;
+}

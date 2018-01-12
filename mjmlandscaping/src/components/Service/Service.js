@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Link from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Header from '../Header/Header'
 import './Service.css'
 
@@ -12,8 +12,8 @@ class Service extends Component {
 					<section className="services">
 						<div className="services-welcome">
 							<h2>
-								Thank you for considering MJM Landscaping. Here, you can find a
-								list of services we provide.
+								Thank you for considering MJM Landscaping! Here, you can learn
+								more about the work we do.
 							</h2>
 						</div>
 
@@ -24,50 +24,52 @@ class Service extends Component {
 
 							<ul className="services-list">
 								<li>
-									Lawn mowing: We offer quality lawn mowing, keeping your lawn
-									in check while keeping it healthy and vibrant. We use industry
-									standard machines & practices to ensure your lawn is glowing &
-									vibrant!
+									<strong>Lawn mowing</strong>: We offer quality lawn mowing,
+									keeping your lawn in check while keeping it healthy and
+									vibrant. We use industry standard machines & practices to
+									ensure your lawn is glowing & vibrant!
 								</li>
 								<li>
-									Edging: We make sure your grass is growing in your property
-									only. We can help make sure your grass stays within property
-									lines, sidewalks, etc. for a clean, stylish landscape!
+									<strong>Edging</strong>: We make sure your grass is growing in
+									your property only. We can help make sure your grass stays
+									within property lines, sidewalks, etc. for a clean, stylish
+									landscape!
 								</li>
 								<li>
-									Hedge trimming: Bushes & hedges are great additions for your
-									lawn, but can be difficult to maintain. We use quality tools
-									to keep those hedges & bushes in shape and in good health!
+									<strong>Hedge trimming</strong>: Bushes & hedges are great
+									additions for your lawn, but can be difficult to maintain. We
+									use quality tools to keep those hedges & bushes in shape and
+									in good health!
 								</li>
 								<li>
-									Mulching: When the time is right, your lawn & landscape could
-									dazzle with a bit of mulch! We use quality mulch to ensure
-									your plants grow healthy and your lawn looks great the entire
-									time!
+									<strong>Mulching</strong>: When the time is right, your lawn &
+									landscape could dazzle with a bit of mulch! We use quality
+									mulch to ensure your plants grow healthy and your lawn looks
+									great the entire time!
 								</li>
 								<li>
-									Planting: If you have an idea for what kind of greenery you
-									want growing in your lawn, we can help realize your vision! We
-									take care to seed lawns & plant shrubbery, flowers, etc. to
-									ensure your inner vision becomes reality!
+									<strong>Planting</strong>: If you have an idea for what kind
+									of greenery you want growing in your lawn, we can help realize
+									your vision! We take care to seed lawns & plant shrubbery,
+									flowers, etc. to ensure your inner vision becomes reality!
 								</li>
 								<li>
-									Weed removal: Weeds can ruin any well-curated garden. We take
-									care to ensure weeds aren't an issue. We pull weeds, root and
-									all, to stop their growth, and have a variety of other tools
-									at our disposal to ensure they're never a problem again!
+									<strong>Weed removal</strong>: Weeds can ruin any well-curated
+									garden. We take care to ensure weeds aren't an issue. We pull
+									weeds, root and all, to stop their growth, and have a variety
+									of other tools at our disposal to ensure they're never a
+									problem again!
 								</li>
 								<li>
-									General clean-up: Whether there's a pile of leaves you want to
-									get rid of, a bunch of branches that fell on your lawn, or
-									whatever the case may be, we can effectively and thoroughly
-									leave your lawn looking as pristine as ever!
+									<strong>General clean-up</strong>: Whether there's a pile of
+									leaves you want to get rid of, a bunch of branches that fell
+									on your lawn, or whatever the case may be, we can effectively
+									and thoroughly leave your lawn looking as pristine as ever!
 								</li>
 							</ul>
-							<h4>
-								We also offer other services; feel free to give us a call to see
-								how we can help your dream come true!
-							</h4>
+							<Link to="/contactus" className="onward">
+								<p>Find out how to best reach us! &rarr;</p>
+							</Link>
 						</div>
 					</section>
 				</div>

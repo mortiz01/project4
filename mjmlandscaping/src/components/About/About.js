@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../Header/Header'
 import './About.css'
 
@@ -13,9 +14,11 @@ class About extends Component {
 							<h1>Who we are</h1>
 						</div>
 						<h3 className="intro-blurb">
-							For years, MJM Landscaping has been committed to providing
-							excellent services to its clients in the Mercer County area and
-							beyond!
+							<em>
+								For years, MJM Landscaping has been committed to providing
+								excellent services to its clients in the Mercer County area and
+								beyond!
+							</em>
 						</h3>
 					</div>
 					<div className="paragraph-about">
@@ -44,11 +47,22 @@ class About extends Component {
 						<div className="quick-facts">
 							<h1>Quick Facts</h1>
 							<ul>
-								<li>Founded in: </li>
-								<li>Operating in: </li>
-								<li>Years of experience: </li>
-								<li />
+								<li>Incorporated in: 2011</li>
+								<li>
+									Operating in: Mercer County and the larger tri-state area
+								</li>
+								<li>
+									Years of experience: More than 20, working lawns large and
+									small!
+								</li>
+								<li>
+									Level of passion about the work we do:{' '}
+									<strong>Infinite!</strong>
+								</li>
 							</ul>
+							<Link to="/service" className="go-on">
+								<p>Read up on what services we offer &rarr;</p>
+							</Link>
 						</div>
 					</div>
 				</div>
