@@ -31,3 +31,21 @@ i{
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+
+.center-block{
+  position: relative;
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+  vertical-align: middle;
+  background-color: white;
+  border-radius: 25px;
+}
+
+Header {
+  background-color: #202249;
+}
+
+.go-on:visited{
+  color: #000000;
+}

@@ -6,9 +6,10 @@ import './About.css'
 class About extends Component {
 	render() {
 		return (
-			<div>
+			<div className="block-container">
+				<div className="left-block" />
 				<Header />
-				<div>
+				<div className="center-block">
 					<div className="about-info">
 						<div className="who">
 							<h1>Who we are</h1>
@@ -66,6 +67,7 @@ class About extends Component {
 						</div>
 					</div>
 				</div>
+				<div className="right-block" />
 			</div>
 		)
 	}

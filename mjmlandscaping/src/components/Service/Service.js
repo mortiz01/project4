@@ -6,9 +6,10 @@ import './Service.css'
 class Service extends Component {
 	render() {
 		return (
-			<div>
+			<div className="block-container">
+				<div className="left-block" />
 				<Header />
-				<div className="services-writeup">
+				<div className="services-writeup center-block">
 					<section className="services">
 						<div className="services-welcome">
 							<h2>
@@ -67,12 +68,13 @@ class Service extends Component {
 									and thoroughly leave your lawn looking as pristine as ever!
 								</li>
 							</ul>
-							<Link to="/contactus" className="onward">
+							<Link to="/contactus" className="go-on">
 								<p>Find out how to best reach us! &rarr;</p>
 							</Link>
 						</div>
 					</section>
 				</div>
+				<div className="right-block" />
 			</div>
 		)
 	}
